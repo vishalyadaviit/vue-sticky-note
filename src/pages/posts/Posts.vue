@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Posts</h1>
+    <h1 id="postsHeading">Posts</h1>
     <h1>this will list all the posts</h1>
     <div class="row">
       <div class="col-sm-12 col-md-4 mb-3" v-for="(item, index) in posts" :key="`post${index}`">
